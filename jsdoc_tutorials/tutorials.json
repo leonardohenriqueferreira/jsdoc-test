@@ -1,0 +1,13 @@
+{
+  "calculator": {
+    "title": "Calculator",
+    "children": {
+      "calculator-addition": {
+        "title": "Addition"
+      },
+      "calculator-subtraction": {
+        "title": "Subtraction"
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "plugins": [
+    "plugins/markdown",
+    "plugins/summarize"
+  ],
+  "source": {
+    "include": ["src"],
+    "includePattern": ".js$"
+  },
+  "templates": {
+    "cleverLinks": true,
+    "monospaceLinks": true
+  },
+  "opts": {
+    "recurse": true,
+    "destination": "./docs/",
+    "readme": "./README.md",
+    "template": "./jsdoc_template",
+    "tutorials": "./jsdoc_tutorials"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "jsdoctest",
+  "version": "1.0.0",
+  "description": "Testing jsdoc",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run doc && node ./src/index.js",
+    "dev": "nodemon ./src/index.js",
+    "doc": "jsdoc -c jsdoc.json"
+  },
+  "author": "Leonardo Henrique Ferreira",
+  "license": "ISC",
+  "devDependencies": {
+    "jsdoc": "^3.6.10",
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
